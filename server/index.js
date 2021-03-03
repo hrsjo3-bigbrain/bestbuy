@@ -7,8 +7,9 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use('/products/:id', express.static(`${__dirname}/../client/dist`));
-app.use('/bundle', express.static(`${__dirname}/../client/dist/bundle.js`));
+// app.use('/products/:id', express.static(`${__dirname}/../client/dist`));
+// app.use('/bundle', express.static(`${__dirname}/../client/dist/bundle.js`));
+app.use(express.static(`${__dirname}/../client/dist`));
 
 app.get('/', (req, res) => {
   res.redirect('/products/1');
