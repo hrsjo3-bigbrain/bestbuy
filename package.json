@@ -6,8 +6,7 @@
   "scripts": {
     "test": "NODE_ENV=test jest -runInBand --detectOpenHandles --forceExit --collectCoverage",
     "seed": "node seeds/seed.js",
-    "seedairpods": "node seeds/airPodsMaxSeed.js",
-    "start": "nodemon ./server/server.js",
+    "start": "node ./server/server.js",
     "client": "webpack"
   },
   "repository": {
