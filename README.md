@@ -1,9 +1,6 @@
 # Best Buy Clone
 Main product details microservice for Best Buy's product page
 
-## Screenshot
-![Main product details screenshot](/screenshots/item-details.png)
-
 ## Technologies used
 * React
 * Node.js
@@ -11,6 +8,9 @@ Main product details microservice for Best Buy's product page
 * MongoDB
 * Mongoose
 * CSS Modules
+
+## Screenshot
+![Main product details screenshot](/screenshots/item-details.png)
 
 ## Installation
 ```bash
